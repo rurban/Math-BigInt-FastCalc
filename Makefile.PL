@@ -12,7 +12,7 @@ name		'Math-BigInt-FastCalc';
 all_from	'lib/Math/BigInt/FastCalc.pm';
 
 requires	'perl'		=> "5.006";
-requires	'Math::BigInt'	=> 1.88;
+requires	'Math::BigInt'	=> '1.90';
 
 build_requires	'Test::More'	=> 0.62;
 
@@ -22,6 +22,8 @@ author		'Tels <nospam-abuse@bloodgate.com>';
 
 # install this over the version in the Perl core
 install_as_core;
+
+sign;
 
 # Generate the Makefile
 WriteAll;

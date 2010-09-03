@@ -11,11 +11,10 @@ inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 lib/Math/BigInt/FastCalc.pm
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 MANIFEST.SKIP
-META.yml			Module meta-data (added by MakeMaker)
+META.yml
 README
-SIGNATURE
 t/bigfltpm.inc
 t/bigfltpm.t
 t/bigintfc.t
@@ -29,3 +28,4 @@ t/mbimbf.t
 t/pod.t
 t/pod_cov.t
 TODO
+SIGNATURE                                Public-key signature (added by MakeMaker)
