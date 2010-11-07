@@ -2,18 +2,13 @@ package Math::BigInt::FastCalc;
 
 use 5.006;
 use strict;
-# use warnings;	# dont use warnings for older Perls
+use warnings;
 
-use DynaLoader;
-use Math::BigInt::Calc;
+use Math::BigInt::Calc 0.56;
 
-use vars qw/@ISA $VERSION $BASE $BASE_LEN/;
+use vars '$VERSION';
 
-@ISA = qw(DynaLoader);
-
-$VERSION = '0.22';
-
-bootstrap Math::BigInt::FastCalc $VERSION;
+$VERSION = '0.24';
 
 ##############################################################################
 # global constants, flags and accessory
@@ -21,11 +16,9 @@ bootstrap Math::BigInt::FastCalc $VERSION;
 # announce that we are compatible with MBI v1.70 and up
 sub api_version () { 1; }
  
-BEGIN
-  {
-  # use Calc to override the methods that we do not provide in XS
+# use Calc to override the methods that we do not provide in XS
 
-  for my $method (qw/
+for my $method (qw/
     str
     add sub mul div
     rsft lsft
@@ -42,18 +35,9 @@ BEGIN
     no strict 'refs';
     *{'Math::BigInt::FastCalc::_' . $method} = \&{'Math::BigInt::Calc::_' . $method};
     }
-  my ($AND_BITS, $XOR_BITS, $OR_BITS, $BASE_LEN_SMALL, $MAX_VAL);
- 
-  # store BASE_LEN and BASE to later pass it to XS code 
-  ($BASE_LEN, $AND_BITS, $XOR_BITS, $OR_BITS, $BASE_LEN_SMALL, $MAX_VAL, $BASE) =
-    Math::BigInt::Calc::_base_len();
 
-  }
-
-sub import
-  {
-  _set_XS_BASE($BASE, $BASE_LEN);
-  }
+require XSLoader;
+XSLoader::load(__PACKAGE__, $VERSION, Math::BigInt::Calc::_base_len());
 
 ##############################################################################
 ##############################################################################

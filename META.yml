@@ -21,7 +21,9 @@ no_index:
     - t
 requires:
   Math::BigInt: 1.90
+  Math::BigInt::Calc: 0.56
+  XSLoader: 0
   perl: 5.006
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.22
+version: 0.24
