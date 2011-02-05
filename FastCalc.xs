@@ -37,7 +37,7 @@ PROTOTYPES: DISABLE
 BOOT:
 {
     if (items < 4)
-	croak_xs_usage(cv, "package, version, base_len, base");
+	croak("Usage: Math::BigInt::FastCalc::BOOT(package, version, base_len, base)");
     XS_BASE_LEN = SvIV(ST(2));
     XS_BASE = SvNV(ST(3));
 }
@@ -254,43 +254,6 @@ _inc(class,x)
       av_push(a, newSViv(1));		/* yes, so extend array by 1 */
       }
     XSRETURN(1);			/* return x */
-
-##############################################################################
-# Make a number (scalar int/float) from a BigInt object
-
-void
-_num(class,x)
-  SV*	x
-  INIT:
-    AV*	a;
-    NV	fac;
-    SV*	temp;
-    NV	num;
-    I32	elems;
-    I32	index;
-    NV	BASE;
-
-  CODE:
-    a = (AV*)SvRV(x);			/* ref to aray, don't check ref */
-    elems = av_len(a);			/* number of elems in array */
-
-    if (elems == 0)			/* only one element? */
-      {
-      ST(0) = *av_fetch(a, 0, 0);	/* fetch first (only) element */
-      XSRETURN(1);			/* return it */
-      }
-    fac = 1.0;				/* factor */
-    index = 0;
-    num = 0.0;
-    BASE = XS_BASE;
-    while (index <= elems)
-      {
-      temp = *av_fetch(a, index, 0);	/* fetch current element */
-      num += fac * SvNV(temp);
-      fac *= BASE;
-      index++;
-      }
-    ST(0) = newSVnv(num);
 
 ##############################################################################
 

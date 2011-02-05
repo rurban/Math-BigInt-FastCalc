@@ -14,15 +14,15 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 b1ad0cfc828eba442b7a7788b8d679ca3c9c7fbc CHANGES
+SHA1 4273d4d4cdb9f012e7c56c689f0e1be761001d31 CHANGES
 SHA1 58d7a00ab2a9f5448a561d49b5a2077efa245ac7 CREDITS
-SHA1 5050590835dbb7e4ce6d1bfeffe98ff4438d9e1c FastCalc.xs
+SHA1 4024a7dea3f6fdc2b315e41a5c1ee77599fe20a0 FastCalc.xs
 SHA1 c3ebcc61b84a33936a5db5b78fdb1a8f0b37fdd3 MANIFEST
 SHA1 d2c445679973476e01c03a8f5df530150be2b74b MANIFEST.SKIP
-SHA1 48ace24b79e8396b234abfef7a498f8de4941fdb META.yml
+SHA1 1fe445c90f5bf45d25a1675c91107230422ad2a9 META.yml
 SHA1 ed9352ccbe6daf3418b3ace0bba7cdaeb34857b2 Makefile.PL
 SHA1 a1e38089425d81c98d94604ac652fd3ef775cdee README
-SHA1 7b92a7ccd02f44187adc7b38c5e399ec1c7b997d TODO
+SHA1 280c4f82fc9e7322fe2bbed7e5f595bfe9fe7783 TODO
 SHA1 7305dbe2904416e28decb05396988a5d51d578be inc/Module/Install.pm
 SHA1 129960509127732258570c122042bc48615222e1 inc/Module/Install/Base.pm
 SHA1 cf3356ed9a5bd2f732527ef9e7bc5ef4458c8a93 inc/Module/Install/Can.pm
@@ -31,23 +31,23 @@ SHA1 b721c93ca5bc9a6aa863b49af15f1b1de6125935 inc/Module/Install/Makefile.pm
 SHA1 026cc0551a0ad399d195e395b46bdf842e115192 inc/Module/Install/Metadata.pm
 SHA1 5457015ea5a50e93465bf2dafa29feebd547f85b inc/Module/Install/Win32.pm
 SHA1 051e7fa8063908befa3440508d0584a2497b97db inc/Module/Install/WriteAll.pm
-SHA1 9cdd19758c547b75c933fcfea627a6c32cf504c4 lib/Math/BigInt/FastCalc.pm
-SHA1 9a2378c9dce67e8cdce5f87886bd49d048f9236e t/bigfltpm.inc
-SHA1 30173f20837a85a7eb724bee78fe2ed1594e7c75 t/bigfltpm.t
+SHA1 920b4cd6dd34b6426b1ff24c293cb74311ca44de lib/Math/BigInt/FastCalc.pm
+SHA1 03a9a3dde7d4fcc3eb2e8f245ab0b0253f1d5821 t/bigfltpm.inc
+SHA1 a8f364fea5e2993f5ae7bd3f8463024175d33e24 t/bigfltpm.t
 SHA1 a8f58743d8936a21bbb56c9b92415fd4ea34cc00 t/bigintfc.t
-SHA1 83f51917f70494584eb6c8ea241f76d23223f013 t/bigintpm.inc
-SHA1 8c606df4bd791b356fb5a0b8c4f0caef1ea5aab3 t/bigintpm.t
+SHA1 b8a59928b5a605c24376d0a1bbb99b6061e511d8 t/bigintpm.inc
+SHA1 e91b777f7c22648d8debaf4f663d519decda083b t/bigintpm.t
 SHA1 9914c24f7ac04c96490e0f43e9c8a3f12b565610 t/bootstrap.t
 SHA1 47b841398933fd438c137ea5ffda893497b68443 t/leak.t
-SHA1 41bbc8a406b4685c932fd36f20b085ea2f04faf1 t/mbi_rand.t
-SHA1 88c91630f9b299f01f18d0d4006c30cc14719a6e t/mbimbf.inc
-SHA1 ccc08f6373dba8db715fc1f2c18f16daacc902b4 t/mbimbf.t
+SHA1 2b9490eab4d5371b804a39fb16e77c6bd6bbd006 t/mbi_rand.t
+SHA1 38d000d99cb2492ab518786e62ab1fae710e0f8d t/mbimbf.inc
+SHA1 2709f7d1acdb39aab910d3ba4c88191b28cc3cfc t/mbimbf.t
 SHA1 1f663f34511d969ea18a235e96cff867869b8d2d t/pod.t
 SHA1 85872557f2e8ca0006d77f377bea14ad62a0cf6a t/pod_cov.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (GNU/Linux)
+Version: GnuPG v1.4.9 (Cygwin)
 
-iEYEARECAAYFAkzWi0UACgkQdC8qQo5jWl7ucgCeLb0PeW5zf0CwwO87qY3ldxsP
-G4UAn0NuA8SazHVdfQR4dpI5dI8NNu+4
-=yLJz
+iEYEARECAAYFAk1NxjIACgkQVQvyyU1bchoyUACePPuVn4ASxN6zpNHQMSBR9yOg
+f4IAoJW6cTF7iv2k5+ekolrVcC6641h0
+=MX2l
 -----END PGP SIGNATURE-----
