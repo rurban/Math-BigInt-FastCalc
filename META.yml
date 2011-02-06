@@ -1,7 +1,7 @@
 ---
 abstract: 'Math::BigInt::Calc with some XS for more speed'
 author:
-  - 'Original math code by Mark Biggar, rewritten by Tels L<http://bloodgate.com/>'
+  - '=over 4'
   - 'Tels <nospam-abuse@bloodgate.com>'
 build_requires:
   ExtUtils::MakeMaker: 6.42
@@ -20,10 +20,10 @@ no_index:
     - inc
     - t
 requires:
-  Math::BigInt: 1.90
+  Math::BigInt: 1.991
   Math::BigInt::Calc: 0.56
   XSLoader: 0
   perl: 5.006
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.25
+version: 0.251
