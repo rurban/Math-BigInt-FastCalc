@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.66.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,24 +14,24 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 a48dc59614e12ac59e1091a4c7338a8c3c8c6e29 CHANGES
+SHA1 e246062fd719088155013e7990d7b325b3520689 CHANGES
 SHA1 58d7a00ab2a9f5448a561d49b5a2077efa245ac7 CREDITS
-SHA1 dc5a0d099232ffe89ad2d08146d4cbfea04da109 FastCalc.xs
+SHA1 c43ea080f42c120ca52b6f0755b13562597e55c0 FastCalc.xs
 SHA1 7239e6509251999ce2f0af0d61a5ec3de65a7f63 MANIFEST
 SHA1 42d4a920cbc07283abe63a16586e26b49e458b6d MANIFEST.SKIP
-SHA1 5c0a8cfc21a99812f9fdd3194ad7d0edd650bde0 META.yml
+SHA1 159a738cb73eb9a972e48d8cfcfcf01e9b95be6c META.yml
 SHA1 142aa0e24f8f17bab5c69d435072187c546ac653 Makefile.PL
 SHA1 a1e38089425d81c98d94604ac652fd3ef775cdee README
 SHA1 280c4f82fc9e7322fe2bbed7e5f595bfe9fe7783 TODO
-SHA1 7305dbe2904416e28decb05396988a5d51d578be inc/Module/Install.pm
-SHA1 129960509127732258570c122042bc48615222e1 inc/Module/Install/Base.pm
-SHA1 cf3356ed9a5bd2f732527ef9e7bc5ef4458c8a93 inc/Module/Install/Can.pm
-SHA1 bf0a3e1977effc2832d7a813a76dce3f31b437b6 inc/Module/Install/Fetch.pm
-SHA1 b721c93ca5bc9a6aa863b49af15f1b1de6125935 inc/Module/Install/Makefile.pm
-SHA1 026cc0551a0ad399d195e395b46bdf842e115192 inc/Module/Install/Metadata.pm
-SHA1 5457015ea5a50e93465bf2dafa29feebd547f85b inc/Module/Install/Win32.pm
-SHA1 051e7fa8063908befa3440508d0584a2497b97db inc/Module/Install/WriteAll.pm
-SHA1 b2c34ce94ef792c7146a67f6a97b0556e5eb0049 lib/Math/BigInt/FastCalc.pm
+SHA1 7b4ae50ebac72d20761171c4c2b50c206344ea40 inc/Module/Install.pm
+SHA1 d9fe55a427fe2fd75b5029afeeaa61b592e07f79 inc/Module/Install/Base.pm
+SHA1 62d3922826d9f89f20c185e7031ac8f028504745 inc/Module/Install/Can.pm
+SHA1 dc809f64fb70a26b069a36f8d3d353d520dbb7e1 inc/Module/Install/Fetch.pm
+SHA1 73ab91490a628452cc140db72ef9d13a1326d211 inc/Module/Install/Makefile.pm
+SHA1 8ce3f2b414e4617e6233dd4ba10830f8c5d672ec inc/Module/Install/Metadata.pm
+SHA1 3b0acd2eeac93a0afe48120f5648f0db362e5bbf inc/Module/Install/Win32.pm
+SHA1 f08924f051e623f8e09fa6a121993c4a9cf7d9eb inc/Module/Install/WriteAll.pm
+SHA1 e4a7a3fe83dea192cec74dddb439218566ae1e30 lib/Math/BigInt/FastCalc.pm
 SHA1 6e9557e746e881ab1568cdcec17ff3c4f1508502 t/00sig.t
 SHA1 b5ae0080ba067ecb1253a50834dc6c2946af26b9 t/01load.t
 SHA1 02ef05af53cb7378452590324bb21dfe61f44069 t/02pod.t
@@ -47,9 +47,9 @@ SHA1 41bbc8a406b4685c932fd36f20b085ea2f04faf1 t/mbi_rand.t
 SHA1 38d000d99cb2492ab518786e62ab1fae710e0f8d t/mbimbf.inc
 SHA1 2709f7d1acdb39aab910d3ba4c88191b28cc3cfc t/mbimbf.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.9 (Cygwin)
+Version: GnuPG v1.4.11 (GNU/Linux)
 
-iEYEARECAAYFAk1pVIsACgkQVQvyyU1bchrDugCaAlnYPeK0uPAmAN/YKPpxdA09
-6zYAnR3p5prjLKbl40b5YDbczbrqjJOd
-=XoY1
+iEYEARECAAYFAk4YNp8ACgkQdC8qQo5jWl4vlwCeIfbcTWjlUd2a5p4686b3ACly
+zuMAnj+j6U7dK96uAwcUvAqmJNLDmYxT
+=p10i
 -----END PGP SIGNATURE-----
