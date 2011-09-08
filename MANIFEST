@@ -13,7 +13,6 @@ lib/Math/BigInt/FastCalc.pm
 Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP
-META.yml
 README
 t/00sig.t
 t/01load.t
@@ -30,4 +29,6 @@ t/mbi_rand.t
 t/mbimbf.inc
 t/mbimbf.t
 TODO
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
 SIGNATURE                                Public-key signature (added by MakeMaker)
