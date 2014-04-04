@@ -1,5 +1,9 @@
 Revision history for Perl extension Math::BigInt::FastCalc.
 
+2014-03-04 0.31 pjacklam
+ * See http://perl5.git.perl.org/perl.git/history/HEAD:/dist/Math-BigInt-FastCalc
+   for a list of recent changes.
+
 2011-09-04 0.30 pjacklam
  * Math::BigInt::FastCalc now requires Math::BigInt v1.997 (Peter John Acklam).
  * Include "^MYMETA\.(yml|json)\z" in MANIFEST.SKIP. Whereas META.* are

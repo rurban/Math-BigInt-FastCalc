@@ -3,24 +3,24 @@ abstract: 'Math::BigInt::Calc with some XS for more speed'
 author:
   - 'Original math code by Mark Biggar, rewritten by Tels L<http://bloodgate.com/>, Tels <nospam-abuse@bloodgate.com>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
-  Test::More: 0.62
+  ExtUtils::MakeMaker: '6.59'
+  Test::More: '0.62'
 configure_requires:
-  ExtUtils::MakeMaker: 0
+  ExtUtils::MakeMaker: '0'
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.59, CPAN::Meta::Converter version 2.112150'
+generated_by: 'ExtUtils::MakeMaker version 6.94, CPAN::Meta::Converter version 2.140640'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Math-BigInt-FastCalc
 no_index:
   directory:
     - t
     - inc
 requires:
-  Math::BigInt: 1.997
-  Math::BigInt::Calc: 1.997
-  XSLoader: 0
-  perl: 5.006
-version: 0.30
+  Math::BigInt: '1.9993'
+  Math::BigInt::Calc: '1.9993'
+  XSLoader: '0'
+  perl: '5.006'
+version: '0.31'
