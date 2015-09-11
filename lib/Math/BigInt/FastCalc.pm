@@ -8,7 +8,7 @@ use Math::BigInt::Calc 1.997;
 
 use vars '$VERSION';
 
-$VERSION = '0.31';
+$VERSION = '0.32';
 
 ##############################################################################
 # global constants, flags and accessory
@@ -163,7 +163,7 @@ Separated from BigInt and shaped API with the help of John Peacock.
 Fixed, sped-up and enhanced by Tels http://bloodgate.com 2001-2003.
 Further streamlining (api_version 1 etc.) by Tels 2004-2007.
 
-Bug-fixing by Peter John Acklam E<lt>pjacklam@online.noE<gt> 2010-2011.
+Bug-fixing by Peter John Acklam E<lt>pjacklam@online.noE<gt> 2010-2015.
 
 =head1 SEE ALSO
 
