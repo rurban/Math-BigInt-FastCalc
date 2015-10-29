@@ -1,16 +1,16 @@
-Math/BigInt/FastCalc
-====================
+Math-BigInt-FastCalc
 
-This is a replacement library for Math::BigInt::Calc that reimplements some
-of the Calc functions in XS. It can be used via:
+Math::BigInt::FastCalc is a replacement library for Math::BigInt::Calc that
+reimplements some of the Math::BigInt::Calc functions in XS. It can be used
+via:
 
-	use Math::BigInt lib => 'FastCalc';
+    use Math::BigInt lib => 'FastCalc';
 
 This is always safe to use, since:
 
-  * FastCalc is always faster than Calc, or equal in speed, it will be never
-    slower
-  * if FastCalc is not installed, Math::BigInt will automatically use Calc.
+  * FastCalc is always faster than Calc, or equal in speed. It will be never
+    slower.
+  * If FastCalc is not installed, Math::BigInt will automatically use Calc.
 
 Of course, it also works with Math::BigFloat
 
@@ -23,21 +23,39 @@ or even Math::BigRat:
 Please have fun!
 
 INSTALLATION
-============
 
-To install this module type the following:
+To install this module, unpack the distribution file, and run the following
+commands:
 
-   perl Makefile.PL
-   make
-   make test
-   make install		# as root
+    perl Makefile.PL
+    make
+    make test
+    make install
 
-Under Windwos, get the nmake program and do:
+SUPPORT AND DOCUMENTATION
 
-   perl Makefile.PL
-   nmake
-   nmake test
-   nmake install	# might need admin rights
+After installing, you can find documentation for these modules with the
+perldoc command.
 
-Copyright (C) 2002 - 2007 Tels - http://bloodgate.com/perl
+    perldoc Math::BigInt::FastCalc
 
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Math-BigInt-FastCalc
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/Math-BigInt-FastCalc
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Math-BigInt-FastCalc
+
+    Search CPAN
+        http://search.cpan.org/dist/Math-BigInt-FastCalc
+
+COPYRIGHT AND LICENCE
+
+Copyright 2007-2010 Peter John Acklam <pjacklam@online.no>
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.

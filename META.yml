@@ -23,5 +23,5 @@ requires:
   Math::BigInt::Calc: '1.999703'
   XSLoader: '0'
   perl: '5.006'
-version: '0.34'
+version: '0.35'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.016'
