@@ -4,7 +4,7 @@ author:
   - 'Original math code by Mark Biggar, rewritten by Tels L<http://bloodgate.com/>, Peter John Acklam <pjacklam@gmail.com>'
 build_requires:
   ExtUtils::MakeMaker: '6.59'
-  Test::More: '0.62'
+  Test::More: '0.47'
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 1
@@ -19,9 +19,9 @@ no_index:
     - t
     - inc
 requires:
-  Math::BigInt: '1.999703'
-  Math::BigInt::Calc: '1.999703'
+  Math::BigInt: '1.999706'
+  Math::BigInt::Calc: '1.999706'
   XSLoader: '0'
   perl: '5.006'
-version: '0.35'
+version: '0.36'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.016'
