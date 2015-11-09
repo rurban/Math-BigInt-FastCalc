@@ -33,14 +33,14 @@
       },
       "runtime" : {
          "requires" : {
-            "Math::BigInt" : "1.999706",
-            "Math::BigInt::Calc" : "1.999706",
+            "Math::BigInt" : "1.999709",
+            "Math::BigInt::Calc" : "1.999709",
             "XSLoader" : "0",
             "perl" : "5.006"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.36",
+   "version" : "0.37",
    "x_serialization_backend" : "JSON::PP version 2.27300"
 }
