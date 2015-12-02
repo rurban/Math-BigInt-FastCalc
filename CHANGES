@@ -1,5 +1,12 @@
 Revision history for Perl extension Math::BigInt::FastCalc.
 
+2015-12-02 v0.38 pjacklam
+  * Use 'static double', not just 'double' in FastCalc.xs.
+  * Move 'Test::More' from 'build_requires' to 'test_requires' in Makefile.PL.
+
+2015-11-09 v0.37 pjacklam
+  * Sync test files with Math-BigInt-1.999709.
+
 2015-11-04 v0.36 pjacklam
   * Sync test files with Math-BigInt-1.999708.
   * Required version of Test::More is only 0.47, not 0.62.

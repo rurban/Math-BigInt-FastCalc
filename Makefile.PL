@@ -17,7 +17,7 @@ requires	'Math::BigInt'		=> '1.999709';
 requires	'Math::BigInt::Calc'	=> '1.999709';
 requires	'XSLoader'		=> '0';
 
-build_requires	'Test::More'	        => 0.47;
+test_requires	'Test::More'	        => 0.47;
 
 license		'perl';
 
