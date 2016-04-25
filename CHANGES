@@ -1,5 +1,8 @@
 Revision history for Perl extension Math::BigInt::FastCalc.
 
+2016-04-25 v1.42 pjacklam
+  * Sync test files with Math-BigInt-1.999719.
+
 2016-04-22 v1.41 pjacklam
   * Sync test files with Math-BigInt-1.999718.
 
