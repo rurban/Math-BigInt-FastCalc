@@ -6,7 +6,7 @@ use warnings;
 use Test::More tests => 3913            # tests in require'd file
                          + 6;           # tests in this file
 
-use Math::BigInt lib => 'FastCalc';
+use Math::BigInt only => 'FastCalc';
 
 our ($CLASS, $CALC);
 $CLASS = "Math::BigInt";

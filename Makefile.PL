@@ -13,11 +13,10 @@ name		'Math-BigInt-FastCalc';
 all_from	'lib/Math/BigInt/FastCalc.pm';
 
 requires	'perl'			=> '5.006';
-requires	'Math::BigInt'		=> '1.999719';
-requires	'Math::BigInt::Calc'	=> '1.999713';
+requires	'Math::BigInt'		=> '1.999800';
 requires	'XSLoader'		=> '0';
 
-test_requires	'Test::More'	        => 0.47;
+test_requires	'Test::More'	        => 0.94;
 
 license		'perl';
 

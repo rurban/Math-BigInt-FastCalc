@@ -9,7 +9,7 @@ use warnings;
 use Test::More tests => 712             # tests in require'd file
                         + 26;           # tests in this file
 
-use Math::BigInt lib => 'FastCalc';
+use Math::BigInt only => 'FastCalc';
 use Math::BigFloat;
 
 our $mbi = 'Math::BigInt';

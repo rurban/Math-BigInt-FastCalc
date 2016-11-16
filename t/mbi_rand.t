@@ -8,7 +8,7 @@ my $count = 128;
 plan(($^O eq 'os390')
      ? (skip_all => 'takes too long on os390') : (tests => $count*2));
 
-use Math::BigInt lib => 'FastCalc';
+use Math::BigInt only => 'FastCalc';
 my $c = 'Math::BigInt';
 
 my $length = 128;
