@@ -32,7 +32,7 @@ for (my $i = 0; $i < $count; $i++)
   # together digits, we would end up with "1272398823211223" etc.
   while (length($As) < $la) { $As .= int(rand(100)) x int(rand(16)); }
   while (length($Bs) < $lb) { $Bs .= int(rand(100)) x int(rand(16)); }
-  $As =~ s/^0+//; $Bs =~ s/^0+//; 
+  $As =~ s/^0+//; $Bs =~ s/^0+//;
   $As = $As || '0'; $Bs = $Bs || '0';
   # print "# As $As\n# Bs $Bs\n";
   $A = $c->new($As); $B = $c->new($Bs);
@@ -52,4 +52,3 @@ for (my $i = 0; $i < $count; $i++)
   print "# ". join(' ',Math::BigInt::Calc->_base_len()),"\n"
    unless is ($ADB*$A+$two*$AMB-$AMB,$Bs);
   }
-

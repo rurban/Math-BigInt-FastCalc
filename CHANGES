@@ -1,6 +1,13 @@
 Revision history for Perl extension Math::BigInt::FastCalc.
 
-2016-11-15 v1.500 pjacklam
+2016-11-17 v0.5001 pjacklam
+  * Avoid 'use parent' to retain compatibility with old Perls.
+
+  * Fix incorrect version numbers in the CHANGES file.
+
+  * Trim whitespace.
+
+2016-11-15 v0.5000 pjacklam
   * Sync test files with Math-BigInt-1.999800.
 
   * Math::BigInt::FastCalc is now a subclass of Math::BigInt::Calc, so remove
@@ -10,10 +17,10 @@ Revision history for Perl extension Math::BigInt::FastCalc.
 
   * Fix documentation error in Math::BigInt::FastCalc
 
-2016-04-25 v1.42 pjacklam
+2016-04-25 v0.42 pjacklam
   * Sync test files with Math-BigInt-1.999719.
 
-2016-04-22 v1.41 pjacklam
+2016-04-22 v0.41 pjacklam
   * Sync test files with Math-BigInt-1.999718.
 
 2016-01-03 v0.40 pjacklam
@@ -84,7 +91,7 @@ Revision history for Perl extension Math::BigInt::FastCalc.
 
 2014-03-04 0.31 pjacklam
  FastCalc.xs
-  * Make the array interface 64-bit safe by using SSize_t instead of I32. 
+  * Make the array interface 64-bit safe by using SSize_t instead of I32.
  Makefile.PL
   * Required version of Math::BigInt and Math::BigInt::Calc is 1.9993.
  inc/Module/Install.pm
