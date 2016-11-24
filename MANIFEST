@@ -24,6 +24,8 @@ t/author-lib-arithmetic-binary-_div.dat
 t/author-lib-arithmetic-binary-_div.t
 t/author-lib-arithmetic-binary-_gcd.dat
 t/author-lib-arithmetic-binary-_gcd.t
+t/author-lib-arithmetic-binary-_lcm.dat
+t/author-lib-arithmetic-binary-_lcm.t
 t/author-lib-arithmetic-binary-_log_int.t
 t/author-lib-arithmetic-binary-_mod.dat
 t/author-lib-arithmetic-binary-_mod.t
@@ -96,6 +98,8 @@ t/bigfltpm.t
 t/bigintfc.t
 t/bigintpm.inc
 t/bigintpm.t
+t/biglog.t
+t/bigroot.t
 t/bootstrap.t
 t/leak.t
 t/Math/BigInt/Lib/TestUtil.pm
