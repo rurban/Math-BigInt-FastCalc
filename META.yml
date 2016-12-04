@@ -1,10 +1,9 @@
 ---
-abstract: 'Math::BigInt::Calc with some XS for more speed'
+abstract: unknown
 author:
-  - 'Original math code by Mark Biggar, rewritten by Tels L<http://bloodgate.com/>, Peter John Acklam <pjacklam@gmail.com>'
+  - 'Peter John Acklam <pjacklam@gmail.com>'
 build_requires:
-  ExtUtils::MakeMaker: '6.59'
-  Test::More: '0.94'
+  ExtUtils::MakeMaker: '0'
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 1
@@ -20,7 +19,8 @@ no_index:
     - inc
 requires:
   Math::BigInt: '1.999801'
+  Test::More: '0.82'
   XSLoader: '0'
-  perl: '5.006'
-version: '0.5002'
+  perl: '5.006001'
+version: '0.5003'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'

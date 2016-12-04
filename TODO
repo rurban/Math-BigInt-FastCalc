@@ -1,3 +1,4 @@
+The following list is not up to date:
 
 * fix t/leak.t
 * put _str() into XS

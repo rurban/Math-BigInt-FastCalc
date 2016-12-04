@@ -1,7 +1,7 @@
 {
-   "abstract" : "Math::BigInt::Calc with some XS for more speed",
+   "abstract" : "unknown",
    "author" : [
-      "Original math code by Mark Biggar, rewritten by Tels L<http://bloodgate.com/>, Peter John Acklam <pjacklam@gmail.com>"
+      "Peter John Acklam <pjacklam@gmail.com>"
    ],
    "dynamic_config" : 1,
    "generated_by" : "ExtUtils::MakeMaker version 7.24, CPAN::Meta::Converter version 2.150010",
@@ -22,8 +22,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.59",
-            "Test::More" : "0.94"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "configure" : {
@@ -34,12 +33,13 @@
       "runtime" : {
          "requires" : {
             "Math::BigInt" : "1.999801",
+            "Test::More" : "0.82",
             "XSLoader" : "0",
-            "perl" : "5.006"
+            "perl" : "5.006001"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.5002",
+   "version" : "0.5003",
    "x_serialization_backend" : "JSON::PP version 2.27400"
 }

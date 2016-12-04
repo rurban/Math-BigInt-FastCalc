@@ -1,31 +1,24 @@
 #!perl
 
-use 5.006;
 use strict;
+use warnings;
+use ExtUtils::MakeMaker;
 
-# Load the Module::Install bundled in ./inc/
-use inc::Module::Install;
-
-# The name of your distribution
-name		'Math-BigInt-FastCalc';
-
-# Get most of the details from the primary module
-all_from	'lib/Math/BigInt/FastCalc.pm';
-
-requires	'perl'			=> '5.006';
-requires	'Math::BigInt'		=> '1.999801';
-requires	'XSLoader'		=> '0';
-
-test_requires	'Test::More'	        => 0.94;
-
-license		'perl';
-
-author     	'Peter John Acklam <pjacklam@gmail.com>';
-
-# install this over the version in the Perl core
-install_as_core;
-
-sign;
-
-# Generate the Makefile
-WriteAll;
+WriteMakefile
+  (
+   'NAME'               => 'Math::BigInt::FastCalc',
+   'VERSION_FROM'       => 'lib/Math/BigInt/FastCalc.pm',
+   'AUTHOR'             => 'Peter John Acklam <pjacklam@gmail.com>',
+   'MIN_PERL_VERSION'   => 5.006001,
+   'PREREQ_PM'          => {
+                            #'ExtUtils::MakeMaker' => 6.58,
+                            'XSLoader'            => 0,
+                            'Test::More'          => 0.82,
+                            'Math::BigInt'        => 1.999801,
+                           },
+   'LICENSE'            => 'perl_5',
+   'LIBS'               => [''],        # e.g., '-lm'
+   'DEFINE'             => '',          # e.g., '-DHAVE_SOMETHING'
+   'INC'                => '',          # e.g., '-I/usr/include/other'
+   'SIGN'               => 1,
+  );
