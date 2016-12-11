@@ -11,7 +11,7 @@ BEGIN {
 use strict;
 use warnings;
 
-use Test::More tests => 81205;
+use Test::More tests => 82645;
 
 ###############################################################################
 # Read and load configuration file and backend library.
@@ -111,7 +111,7 @@ for (my $i = 0 ; $i <= $#data ; ++ $i) {
            "'$test' second input arg is still a $REF");
 
         is($LIB->_str($y), $in1,
-           "'$test' second output arg is unmodified");
+           "'$test' second input arg is unmodified");
     };
 }
 
@@ -155,6 +155,6 @@ for (my $i = 0 ; $i <= $#data ; ++ $i) {
            "'$test' second input arg is still a $REF");
 
         is($LIB->_str($y), $in1,
-           "'$test' second output arg is unmodified");
+           "'$test' second input arg is unmodified");
     };
 }

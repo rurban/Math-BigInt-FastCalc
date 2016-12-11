@@ -1,5 +1,11 @@
 Revision history for Perl extension Math::BigInt::FastCalc.
 
+2016-12-11 v0.5004 pjacklam
+
+ * Fix Makefile.PL so that this module installs over the core version.
+
+ * Sync test files with Math-BigInt-1.999805.
+
 2016-12-03 v0.5003 pjacklam
 
  * Use ExtUtils::MakeMaker rather than Module::Install in Makefile.PL

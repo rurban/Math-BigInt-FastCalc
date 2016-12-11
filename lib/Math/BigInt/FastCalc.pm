@@ -8,7 +8,7 @@ use Math::BigInt::Calc '1.999801';
 
 our @ISA = qw< Math::BigInt::Calc >;
 
-our $VERSION = '0.5003';
+our $VERSION = '0.5004';
 
 ##############################################################################
 # global constants, flags and accessory
