@@ -1,4 +1,7 @@
-Revision history for Perl extension Math::BigInt::FastCalc.
+2016-12-13 v0.5005 pjacklam
+
+ * Add more logic to Makefile.PL regarding INSTALLDIRS (CPAN RT #119199
+   and #119225).
 
 2016-12-11 v0.5004 pjacklam
 

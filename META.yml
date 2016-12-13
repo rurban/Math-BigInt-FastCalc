@@ -22,5 +22,5 @@ requires:
   Test::More: '0.82'
   XSLoader: '0'
   perl: '5.006001'
-version: '0.5004'
+version: '0.5005'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
