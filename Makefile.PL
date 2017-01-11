@@ -14,7 +14,7 @@ my %WriteMakefileArgs =
                             #'ExtUtils::MakeMaker' => 6.58,
                             'XSLoader'            => 0,
                             'Test::More'          => 0.82,
-                            'Math::BigInt'        => 1.999801,
+                            'Math::BigInt'        => 1.999808,
                            },
    'LICENSE'            => 'perl_5',
    'LIBS'               => [''],        # e.g., '-lm'

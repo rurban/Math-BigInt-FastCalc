@@ -21,7 +21,10 @@ plan skip_all => "Pod::Coverage $min_pc required for testing POD coverage"
   if $@;
 
 my $trustme = {
-               trustme => [ 'api_version' ],
+               private => [ qr/^__/,
+                            qr/^(un)?import$/,
+                            qr/^bootstrap$/,
+                          ],
                coverage_class => 'Pod::Coverage::CountParents',
               };
 
